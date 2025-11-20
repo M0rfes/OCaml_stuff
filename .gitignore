@@ -1,3 +1,20 @@
-*.cmi
-*.cmo
-/bin
+# Ignore build artifacts and Dune output
+/_build/
+/_install/
+/.log
+/.merlin
+/.merlin-findlib
+/.ocamlformat
+/.dune
+/.dune-config
+/.dune-workspace
+/.dune-workspace.lock
+
+# Local opam switch (if used)
+_opam/
+
+# Editor and OS-specific files
+*.swp
+*.swo
+*~
+.DS_Store
