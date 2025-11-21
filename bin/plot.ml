@@ -22,3 +22,5 @@ let run () =
     lineto x y
   done;
   ignore (read_key ())
+
+let () = run ()

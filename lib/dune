@@ -1,2 +1,4 @@
 (library
- (name ocaml_stuff))
+ (name ocaml_stuff)
+ (public_name ocaml_stuff)
+ (libraries graphics))

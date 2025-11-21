@@ -18,3 +18,5 @@ let run () =
   for n =2 to max do
    if prime.(n) then Printf.printf "%d\n" n
   done
+
+let () = run ()

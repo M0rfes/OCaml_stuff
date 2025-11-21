@@ -9,3 +9,5 @@
       close_in c1; close_out c2
 
 let run () = copy Sys.argv.(1) Sys.argv.(2)
+
+let () = run ()

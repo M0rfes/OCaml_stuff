@@ -7,8 +7,8 @@ let () =
     done
   with End_of_file -> ()
 
-let rec print = function
-    | [] -> ()
-    | s :: r -> print_endline s; print r
+
 
 let run () = List.iter print_endline !lines
+
+let () = run ()

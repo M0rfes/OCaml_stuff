@@ -1,0 +1,43 @@
+(executable
+ (name approx_pi)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name breakout)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name cardioid)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name copy_file)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name leap_year)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name main)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name mandelbrot)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name plot)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name radix)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name rev)
+ (libraries ocaml_stuff graphics))
+
+(executable
+ (name sieve)
+ (libraries ocaml_stuff graphics))

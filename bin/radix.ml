@@ -23,3 +23,5 @@ let run () =
     Printf.printf "-> %d\n" value
   done
 
+
+let () = run ()

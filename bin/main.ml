@@ -1,16 +1,16 @@
-open Angle
 
 
-module Angle: ANGLE = struct
+
+module Angle: Ocaml_stuff.Angle.ANGLE = struct
   type t = float 
   let add = (+.) 
-  let pi_over_180 = atan Ttr.v /. 45. 
+  let pi_over_180 = atan Ocaml_stuff.Ttr.v /. 45. 
   let of_degrees d = d *. pi_over_180 
   let cos = Stdlib.cos 
   let sin = Stdlib.sin
 end
 
-module T = Trutle.Turtle(Angle)
+module T = Ocaml_stuff.Trutle.Turtle(Angle)
 let square d = 
   for _ = 1 to 4 do
     T.advance d; T.rotate_left 90. 
