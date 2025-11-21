@@ -41,3 +41,7 @@
 (executable
  (name sieve)
  (libraries ocaml_stuff graphics))
+
+(executable
+ (name meme)
+ (libraries ocaml_stuff graphics))
